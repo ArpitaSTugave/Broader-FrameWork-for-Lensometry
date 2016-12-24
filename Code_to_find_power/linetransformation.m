@@ -54,7 +54,6 @@ I = imread('imcircle.jpg');
     htxtins.FontSize = 100;
     htxtins.Location = [1000 315]; % [x y]
     J = step(htxtins, I);
-    axes(handles); 
     imshow(J);
     hold on
     title('cropped circle with power', 'FontSize', fontSize);

@@ -160,6 +160,6 @@ bw(:,:,2)=bw2;
 bw(:,:,3)=bw2;
 bw3=im2uint8(bw);
 img=bw3 + img;
-axes(handles); imshow(img);
+imshow(img);
 hold on
 title('cropped circle', 'FontSize', 16);

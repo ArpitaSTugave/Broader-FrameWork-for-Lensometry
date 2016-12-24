@@ -10,7 +10,7 @@ edges = edge(I, 'sobel');
 
 peaks = houghpeaks(H, 10,'Threshold', 0.3*max(H(:))); %if you take 0.5 6th lines is missed
 lines = houghlines(edges, T, R, peaks, 'FillGap',50, 'MinLength', 200);
-axes(handles); imshow(I); hold on
+imshow(I); hold on
 title('edges using hough transform', 'FontSize', fontSize);
 max_len = 0;
 for k = 1:length(lines)
