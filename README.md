@@ -99,7 +99,7 @@ In first we see sfr and sfg plots for ideal mire. In second color we see sfr and
 <P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using Power Code described we get power values for a particular lens. We experimented using various convex and concave lenses. We also experimented with different gap distance. Here gap is the distance between mire image and the lens stand.  Our computed power values are as shown below.
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469286/f69999ea-ca10-11e6-9214-ab6e42aafce3.png)
+![image](https://cloud.githubusercontent.com/assets/11435669/21469667/29312d6a-ca2e-11e6-8f5b-d3a911d12d2a.png)
 
 <DIV id="id_1_2">
 <P class="p22 ft10"><SPAN class="ft10"><H5> Why are lower computed power values varying from actual power values? </H5></P>
