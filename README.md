@@ -47,7 +47,7 @@ d, u0 and v0 constants
 <DIV id="id_2_3">
 <P class="p15 ft6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. We get of transformation polynomials (sfr, sfg, sfu, sfv) are as shown in the figure below:
 </DIV>
-![](https://cloud.githubusercontent.com/assets/11435669/21469190/b1ecb14c-ca0b-11e6-9007-4411b2e6f0ad.png?raw=true)
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469190/b1ecb14c-ca0b-11e6-9007-4411b2e6f0ad.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469190/b1ecb14c-ca0b-11e6-9007-4411b2e6f0ad.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_2_3">
 <P class="p15 ft6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Explanation for sfr and sfg polynomial: we take i,j of image and find u,v
 (mire co-ordinates) and knowing mire characteristic matrix we find RG which should be
@@ -82,31 +82,27 @@ In first we see sfr and sfg plots for ideal mire. In second color we see sfr and
 <P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The above variation in sfr and sfg, doesn’t affect our analysis. As the solution lies in the concept itself. Our polynomials sfr and sfg gives one to one mapping of colors. Hence no matter where the pixel of color is, it is mapped exactly to where it has to be. Next we will consider mean square errors (RGdiff). 
 </P>
 </DIV>
-| type | Ideal | Actual |
-| ------------- | ------------- | ------------- |
-| sfr  |<a href="https://cloud.githubusercontent.com/assets/11435669/21469262/2a512f34-ca0f-11e6-8aaf-0567bea47ada.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469262/2a512f34-ca0f-11e6-8aaf-0567bea47ada.png" alt="image" style="max-width:100%;"></a>| ![image](https://cloud.githubusercontent.com/assets/11435669/21469268/706714ca-ca0f-11e6-98ac-ffdfc8da5ccd.png) |
-| sfg  | ![image](https://cloud.githubusercontent.com/assets/11435669/21469265/617dd50c-ca0f-11e6-9d6d-fa62cfe6c592.png) | ![image](https://cloud.githubusercontent.com/assets/11435669/21469271/7d83cafe-ca0f-11e6-8e93-5344b5a93717.png) |
-| RGdiff  | ![image](https://cloud.githubusercontent.com/assets/11435669/21469279/1d330ace-ca10-11e6-8e0a-73795ae23bc6.png) | ![image](https://cloud.githubusercontent.com/assets/11435669/21469280/2c8b9d92-ca10-11e6-8e8d-d5fd1124c986.png) |
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469262/2a512f34-ca0f-11e6-8aaf-0567bea47ada.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469262/2a512f34-ca0f-11e6-8aaf-0567bea47ada.png" alt="image" style="max-width:100%;"></a></p>
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469268/706714ca-ca0f-11e6-98ac-ffdfc8da5ccd.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469268/706714ca-ca0f-11e6-98ac-ffdfc8da5ccd.png" alt="image" style="max-width:100%;"></a></p>
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469279/1d330ace-ca10-11e6-8e0a-73795ae23bc6.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469279/1d330ace-ca10-11e6-8e0a-73795ae23bc6.png" alt="image" style="max-width:100%;"></a></p>
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469280/2c8b9d92-ca10-11e6-8e8d-d5fd1124c986.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469280/2c8b9d92-ca10-11e6-8e8d-d5fd1124c986.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_1_2">
 <P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comparing RGdiff we find that in second case the mean square error is 7% more than first case. But eye-opener is the fact that mean square error is considerably minimum, at the center, in Figure below. This show the unavoidable errors of pervious section can be compensated by considering center region of mire for our analysis
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469282/7b4562d8-ca10-11e6-87ef-a68f1106f5f4.png)
-
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469282/7b4562d8-ca10-11e6-87ef-a68f1106f5f4.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469282/7b4562d8-ca10-11e6-87ef-a68f1106f5f4.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_1_2">
 <P class="p22 ft10"><SPAN class="ft10"><H2> Results </H2></P>
 <P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using Power Code described we get power values for a particular lens. We experimented using various convex and concave lenses. We also experimented with different gap distance. Here gap is the distance between mire image and the lens stand.  Our computed power values are as shown below.
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469667/29312d6a-ca2e-11e6-8f5b-d3a911d12d2a.png)
-
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469667/29312d6a-ca2e-11e6-8f5b-d3a911d12d2a.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469667/29312d6a-ca2e-11e6-8f5b-d3a911d12d2a.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_1_2">
 <P class="p22 ft10"><SPAN class="ft10"><H5> Why are lower computed power values varying from actual power values? </H5></P>
 <P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To explain the above question, we consider the deflection of rays (see Figure below) considering no lens mire image. In this deflection image we can see initial deflections. These initial deflections are supposed to be zero. As they are not zero they influence lower power values.
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469293/8d4d163c-ca11-11e6-8bdd-edcae06e30dd.png)
-
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469293/8d4d163c-ca11-11e6-8bdd-edcae06e30dd.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469293/8d4d163c-ca11-11e6-8bdd-edcae06e30dd.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_1_2">
 <P class="p22 ft10"><SPAN class="ft10"><H3> Deflection of Rays </H3></P>
 <P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We came to realization that initial deflections were the
@@ -115,20 +111,20 @@ extracted deflection images for various portion of, mire seen through lens. As a
 these are the following images (figure 4.6).
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469307/1ce47182-ca12-11e6-87b8-e0bfb4a49e2b.png)
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469307/1ce47182-ca12-11e6-87b8-e0bfb4a49e2b.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469307/1ce47182-ca12-11e6-87b8-e0bfb4a49e2b.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_1_2">
 <P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  In this figure you see the initial deflection of mire without camera. This is considered as the ideal deflection case. 
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469314/79dab450-ca12-11e6-9a96-97133eff772d.png)
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469314/79dab450-ca12-11e6-9a96-97133eff772d.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469314/79dab450-ca12-11e6-9a96-97133eff772d.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_1_2">
 <P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Now let us see the deflection images for concave lens and convex lens.
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469321/bc1bc6b0-ca12-11e6-855a-eedb4608b610.png)
-![image](https://cloud.githubusercontent.com/assets/11435669/21469330/e53d075c-ca12-11e6-95b2-51e0ff4d3f33.png)
-![image](https://cloud.githubusercontent.com/assets/11435669/21469332/fd4b0600-ca12-11e6-80e4-cafda4cdf61e.png)
-![image](https://cloud.githubusercontent.com/assets/11435669/21469336/312a3e78-ca13-11e6-8e20-e00d05e81e42.png)
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469321/bc1bc6b0-ca12-11e6-855a-eedb4608b610.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469321/bc1bc6b0-ca12-11e6-855a-eedb4608b610.png" alt="image" style="max-width:100%;"></a></p>
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469330/e53d075c-ca12-11e6-95b2-51e0ff4d3f33.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469330/e53d075c-ca12-11e6-95b2-51e0ff4d3f33.png" alt="image" style="max-width:100%;"></a></p>
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469332/fd4b0600-ca12-11e6-80e4-cafda4cdf61e.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469332/fd4b0600-ca12-11e6-80e4-cafda4cdf61e.png" alt="image" style="max-width:100%;"></a></p>
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469336/312a3e78-ca13-11e6-8e20-e00d05e81e42.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469336/312a3e78-ca13-11e6-8e20-e00d05e81e42.png" alt="image" style="max-width:100%;"></a></p>
 
 <DIV id="id_1_2">
 <P class="p22 ft10"><SPAN class="ft10"><H2> Conclusion </H2></P>
