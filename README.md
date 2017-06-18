@@ -29,8 +29,7 @@ numbers (power values) could replace the old inaccurate methods of qualifying th
 all the properties of that image, and this image is called the “mire image”. It is from the concept where pixels used to be represented as triangles not square or rectangles. The colors at each point were given weights around the corner. Now for our image we give weights as 1 on the corner for rgb image. We consider a regular triangle. By cutting the triangle at 0.666 of pixel value on all the three corners we get hexagon. Knowing the co-ordinates and pixel value at each point we proceed to other equations which give us power of the lens. The power of the lens is implemented using matlab, as matlab was invented to solve huge matrix equations. This best suits for this application.
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469149/711a5698-ca0a-11e6-8192-8c2f1c8a3aed.png)
-<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469667/29312d6a-ca2e-11e6-8f5b-d3a911d12d2a.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469667/29312d6a-ca2e-11e6-8f5b-d3a911d12d2a.png" alt="image" style="max-width:100%;"></a></p>
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469149/711a5698-ca0a-11e6-8192-8c2f1c8a3aed.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469149/711a5698-ca0a-11e6-8192-8c2f1c8a3aed.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_2_3">
 <P class="p9 ft6"><H3> Procedure to find the power of the lens </H3></P>
 <P class="p15 ft6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We find power of the lens using transformation matrices and polynomials.
@@ -39,7 +38,7 @@ We get these transformation matrices and polynomials as follow:
 i. We created the mire image in pervious section.We view mire through a non-powered lens (assume) .The viewed image will go through various steps of printing and being viewed via camera. In all these the co-ordinates of origin could be changed for which we get the transformation matrix, as follows:
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469169/e192d850-ca0a-11e6-9cbd-e4aac6fb2ecb.png "")
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469169/e192d850-ca0a-11e6-9cbd-e4aac6fb2ecb.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469169/e192d850-ca0a-11e6-9cbd-e4aac6fb2ecb.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_2_3">
 <P class="p15 ft6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Procedure to get this matrix is first get the corners of the mire using Hough transformation. This gives you i,j. We know u,v from corner co-ordinates of mire. We substitute these in above matrix and apply least square to get values of a, b, c,
 d, u0 and v0 constants
@@ -73,8 +72,7 @@ our mire to lens distance such that the image formed when viewed from camera doe
 in our eyes are red, blue and green. If we were to view an object, the receptors in our eye would get stimulated at different places, depending on the objects color. If the object were to be blue our blue receptors would be stimulated. The receptors in human eye have different arrangement of spectrum for these red, blue and green colors as shown in figure.The spectrum of light (continuous range of colors) is uniform along the bandwidth of frequencies. The spectrum of curve for red, blue and green is similar at different frequency. But practically, camera intercept variedly than eye. The RGB color reported by the camera is not the correct RGB color that the printer was told to print. The variation in camera results in unavoidable errors. 
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469250/435200fe-ca0e-11e6-907a-09aeb205ed32.png =150x150)
-
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469250/435200fe-ca0e-11e6-907a-09aeb205ed32.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469250/435200fe-ca0e-11e6-907a-09aeb205ed32.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_1_2">
 <P class="p22 ft10"><SPAN class="ft10"><H3>  Error Handling and Recovery </H3></P>
 <P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From previous section, we saw how the printing errors are unavoidable.
@@ -86,7 +84,7 @@ In first we see sfr and sfg plots for ideal mire. In second color we see sfr and
 </DIV>
 | type | Ideal | Actual |
 | ------------- | ------------- | ------------- |
-| sfr  | ![image](https://cloud.githubusercontent.com/assets/11435669/21469262/2a512f34-ca0f-11e6-8aaf-0567bea47ada.png)  | ![image](https://cloud.githubusercontent.com/assets/11435669/21469268/706714ca-ca0f-11e6-98ac-ffdfc8da5ccd.png) |
+| sfr  |<a href="https://cloud.githubusercontent.com/assets/11435669/21469262/2a512f34-ca0f-11e6-8aaf-0567bea47ada.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469262/2a512f34-ca0f-11e6-8aaf-0567bea47ada.png" alt="image" style="max-width:100%;"></a>| ![image](https://cloud.githubusercontent.com/assets/11435669/21469268/706714ca-ca0f-11e6-98ac-ffdfc8da5ccd.png) |
 | sfg  | ![image](https://cloud.githubusercontent.com/assets/11435669/21469265/617dd50c-ca0f-11e6-9d6d-fa62cfe6c592.png) | ![image](https://cloud.githubusercontent.com/assets/11435669/21469271/7d83cafe-ca0f-11e6-8e93-5344b5a93717.png) |
 | RGdiff  | ![image](https://cloud.githubusercontent.com/assets/11435669/21469279/1d330ace-ca10-11e6-8e0a-73795ae23bc6.png) | ![image](https://cloud.githubusercontent.com/assets/11435669/21469280/2c8b9d92-ca10-11e6-8e8d-d5fd1124c986.png) |
 <DIV id="id_1_2">
