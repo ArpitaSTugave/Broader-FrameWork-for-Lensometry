@@ -72,7 +72,7 @@ our mire to lens distance such that the image formed when viewed from camera doe
 in our eyes are red, blue and green. If we were to view an object, the receptors in our eye would get stimulated at different places, depending on the objects color. If the object were to be blue our blue receptors would be stimulated. The receptors in human eye have different arrangement of spectrum for these red, blue and green colors as shown in figure.The spectrum of light (continuous range of colors) is uniform along the bandwidth of frequencies. The spectrum of curve for red, blue and green is similar at different frequency. But practically, camera intercept variedly than eye. The RGB color reported by the camera is not the correct RGB color that the printer was told to print. The variation in camera results in unavoidable errors. 
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469250/435200fe-ca0e-11e6-907a-09aeb205ed32.png)
+![image](https://cloud.githubusercontent.com/assets/11435669/21469250/435200fe-ca0e-11e6-907a-09aeb205ed32.png =150x150)
 
 <DIV id="id_1_2">
 <P class="p22 ft10"><SPAN class="ft10"><H3>  Error Handling and Recovery </H3></P>
