@@ -38,7 +38,7 @@ We get these transformation matrices and polynomials as follow:
 i. We created the mire image in pervious section.We view mire through a non-powered lens (assume) .The viewed image will go through various steps of printing and being viewed via camera. In all these the co-ordinates of origin could be changed for which we get the transformation matrix, as follows:
 </P>
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469169/e192d850-ca0a-11e6-9cbd-e4aac6fb2ecb.png)
+[[https://cloud.githubusercontent.com/assets/11435669/21469169/e192d850-ca0a-11e6-9cbd-e4aac6fb2ecb.png|alt=octocat]]
 <DIV id="id_2_3">
 <P class="p15 ft6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Procedure to get this matrix is first get the corners of the mire using Hough transformation. This gives you i,j. We know u,v from corner co-ordinates of mire. We substitute these in above matrix and apply least square to get values of a, b, c,
 d, u0 and v0 constants
