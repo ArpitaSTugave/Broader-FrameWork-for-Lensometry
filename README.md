@@ -30,6 +30,7 @@ all the properties of that image, and this image is called the “mire image”.
 </P>
 </DIV>
 ![image](https://cloud.githubusercontent.com/assets/11435669/21469149/711a5698-ca0a-11e6-8192-8c2f1c8a3aed.png)
+<p><a href="https://cloud.githubusercontent.com/assets/11435669/21469667/29312d6a-ca2e-11e6-8f5b-d3a911d12d2a.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/11435669/21469667/29312d6a-ca2e-11e6-8f5b-d3a911d12d2a.png" alt="image" style="max-width:100%;"></a></p>
 <DIV id="id_2_3">
 <P class="p9 ft6"><H3> Procedure to find the power of the lens </H3></P>
 <P class="p15 ft6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We find power of the lens using transformation matrices and polynomials.
