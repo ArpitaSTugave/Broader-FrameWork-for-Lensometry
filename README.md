@@ -47,7 +47,7 @@ d, u0 and v0 constants
 <DIV id="id_2_3">
 <P class="p15 ft6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. We get of transformation polynomials (sfr, sfg, sfu, sfv) are as shown in the figure below:
 </DIV>
-![image](https://cloud.githubusercontent.com/assets/11435669/21469190/b1ecb14c-ca0b-11e6-9007-4411b2e6f0ad.png)
+![](https://cloud.githubusercontent.com/assets/11435669/21469190/b1ecb14c-ca0b-11e6-9007-4411b2e6f0ad.png?raw=true)
 <DIV id="id_2_3">
 <P class="p15 ft6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Explanation for sfr and sfg polynomial: we take i,j of image and find u,v
 (mire co-ordinates) and knowing mire characteristic matrix we find RG which should be
